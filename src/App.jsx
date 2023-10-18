@@ -1,16 +1,13 @@
 import './App.css'
-//Forma número 1
-// import { ClaseDos } from './components/Clase2/ClaseDos';
-import { Clase2Bis } from './components/Clase2Bis/Clase2Bis';
+import { Clase3 } from './components/Clase3/Clase3';
 
-//Forma número 2
-// import ClaseDos from './components/Clase2/ClaseDos';
 
 function App() {
 
   return (
     <>
-      <Clase2Bis/>
+      <Clase3/>
+      
     </>
   )
 }
