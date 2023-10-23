@@ -1,0 +1,13 @@
+button{
+    margin: 5px;
+    color: chartreuse;
+    background-color: chocolate;
+}
+.card{
+    background-color: rgb(38, 79, 80);  
+    border-radius: 5px;
+}
+img{
+    width: 100px;
+    height: 130px;
+}
