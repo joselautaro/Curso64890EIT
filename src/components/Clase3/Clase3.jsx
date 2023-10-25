@@ -12,7 +12,7 @@ export const Clase3 = () => {
     return (
 
         <div>
-            
+            <h4>Clase 3</h4>
         </div>
     )
 }

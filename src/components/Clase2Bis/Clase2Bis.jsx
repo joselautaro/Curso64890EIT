@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
+import './style.css';
 
 export const Clase2Bis = () => {
 
-    // const [ string, setString ] = useState("Hola Soy un estado!");
-    
     const [contador, setContador] = useState(0)
 
     const aumentar = () =>{
@@ -11,19 +10,16 @@ export const Clase2Bis = () => {
     }
 
     const disminuir = () =>{
-        setContador(contador - 1);
+        if(contador > 0){
+            setContador(contador - 1)
+        }
     }
 
   return (
     <>
-    <div>Clase2Bis</div>
-    {/* <p> { string }</p> */}
-    <p>Contador: {contador}</p>
-    {/* <button onClick={() => setContador(contador + 1)}>Aumentar</button> */}
-    <button onClick={aumentar}>Aumentar</button>
-    <button onClick={disminuir}>Disminuir</button>
-    <hr />
-
+        <p>{contador}</p>
+        <button className='button' onClick={aumentar}>➕</button>
+        <button className='button' onClick={disminuir}>➖</button>
     </>
 
 )
