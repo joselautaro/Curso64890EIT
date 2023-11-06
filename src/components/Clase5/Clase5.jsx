@@ -42,10 +42,11 @@ export const Clase5 = () => {
                             {items.map((item) => (
                                 <div className="card">
                                     <div key={item.id}>
-                                        <img src={item.photo} al    t={item.photo} />
+                                        <img src={item.photo} alt={item.photo} />
                                         <p>{item.name}</p>
                                         <h4>{item.description}</h4>
                                         <h5>{item.category}</h5>
+                                        <h5>${item.price}</h5>
                                         <Clase2Bis/>
                                     </div>
                                 </div>

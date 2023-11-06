@@ -5,6 +5,7 @@ export const stock = [
        name: 'Producto 1',
        description: 'Pantalón',
        photo: 'https://picsum.photos/seed/picsum/200/300',
+       price: 4500,
        category: "ropa"
     },
     {
@@ -12,6 +13,7 @@ export const stock = [
         name:'Producto 2',
         description: 'Computadora',
         photo: 'https://picsum.photos/id/237/200/300',
+        price: 750000,
         category: 'electrónica'
     },
     {
@@ -19,6 +21,7 @@ export const stock = [
         name:'Producto 3',
         description: 'Remera',
         photo: 'https://picsum.photos/200/300?grayscale',
+        price: 10500,
         category: 'indumentaria'
     },
     {
@@ -26,6 +29,7 @@ export const stock = [
         name:'Producto 4',
         description: 'Celular',
         photo: 'https://picsum.photos/200/300/?blur=2',
+        price: 100000,
         category: 'tecnología'
     },
 

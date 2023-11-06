@@ -4,6 +4,7 @@ import { Clase2Bis } from './components/Clase2Bis/Clase2Bis';
 import { Clase3 } from './components/Clase3/Clase3';
 import { Clase4 } from './components/Clase4/Clase4';
 import { Clase5 } from './components/Clase5/Clase5';
+import { NavBar } from './components/NavBar/NavBar';
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +20,7 @@ function App() {
       envolverla en fragment llamada router, seguido por routes, finalizado por route
     */}
       <Router>
+          <NavBar/>
         <Routes>
           <Route exact path='/' element={<Clase5/>}/>
           <Route exact path='/dos' element={<Clase2/>}/>

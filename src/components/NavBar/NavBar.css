@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkolivegreen;
+    padding: 10px;
+    font-size: xx-large;
+}
+.nav > .link{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}

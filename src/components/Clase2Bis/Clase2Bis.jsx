@@ -16,11 +16,11 @@ export const Clase2Bis = () => {
     }
 
   return (
-    <>
+    <div className='count'>
+        <button className='button' onClick={disminuir}>➖</button>
         <p>{contador}</p>
         <button className='button' onClick={aumentar}>➕</button>
-        <button className='button' onClick={disminuir}>➖</button>
-    </>
+    </div>
 
 )
 }
