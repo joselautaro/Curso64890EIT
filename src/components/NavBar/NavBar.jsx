@@ -10,6 +10,7 @@ export const NavBar = () => {
             <Link className='link' to="/dos-bis">Dos Bis</Link>
             <Link className='link' to="/tres">Tres</Link>
             <Link className='link' to="/cuatro">Cuatro</Link>
+            <Link className='link' to="/poke">Poke Cards</Link>
         </div>
     )
 }

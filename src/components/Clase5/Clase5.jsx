@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { pedirProductos } from '../../helpers/pedirProductos';
 import {Clase2Bis} from '../Clase2Bis/Clase2Bis';
+import { DolarApi } from "../DolarApi/DolarApi";
 import './style.css'
 
 export const Clase5 = () => {
@@ -51,6 +52,7 @@ export const Clase5 = () => {
                                     </div>
                                 </div>
                             ))}
+                            <DolarApi/>
                         </div>
                     )
             }

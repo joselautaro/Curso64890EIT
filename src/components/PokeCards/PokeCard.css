@@ -1,0 +1,8 @@
+.pokemon-card img{
+    width: 320px;
+    height: 300px;
+}
+
+.pokemon-card > h2{
+    text-align: center;
+}

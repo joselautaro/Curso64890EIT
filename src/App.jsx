@@ -5,6 +5,7 @@ import { Clase3 } from './components/Clase3/Clase3';
 import { Clase4 } from './components/Clase4/Clase4';
 import { Clase5 } from './components/Clase5/Clase5';
 import { NavBar } from './components/NavBar/NavBar';
+import { PokeCards } from './components/PokeCards/PokeCard';
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,6 +28,8 @@ function App() {
           <Route exact path='/dos-bis' element={<Clase2Bis/>}/>
           <Route exact path='/tres' element={<Clase3/>}/>
           <Route exact path='/cuatro' element={<Clase4/>}/>
+          <Route exact path='/poke' element={<PokeCards/>}/>
+
         </Routes>
       </Router>
     </>
